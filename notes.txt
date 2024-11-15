@@ -1,0 +1,48 @@
+    DS 
+
+        memory
+        various from of data storage
+        data - manage and store data 
+
+
+        program ==> 
+                     application -> 
+                                450 MB -  TB - space
+                                Login -> 1.5 minute -> Time
+                
+            1) Time complexity   --  time
+            2) Space complexity   --  memory
+
+
+            3) algorithm
+
+            mil -> 
+                    gun, Shoot gun, machine gun, sniper gun, tear gas, water gun,
+
+        border ->  machine gun, sniper gun 
+        -> gun 
+
+
+                                    DS 
+
+            Liner DS                                            Non Liner DS
+              array                                                 tree
+              stack                                                 graph
+              queue
+            linked list
+
+
+    search : binary search, linear search 
+
+    sort : bubble sort, selection sort, insertion sort, merge sort, quick sort, heap sort
+
+-----------------------------------------------------------------------------------------------------------
+
+
+tools -> DS
+        program -> c c++ java python ruby
+
+
+    c -> DS -->    TC, GCC { VS } {code Block}
+
+-----------------------------------------------------------------------------------
