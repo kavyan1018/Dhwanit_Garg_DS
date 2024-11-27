@@ -11,5 +11,5 @@ void main()
        {
               printf("%d * %d = %d\n", num, i, num*i);
        }
-
+       
 }
