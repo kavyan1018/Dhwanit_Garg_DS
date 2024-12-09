@@ -5,15 +5,6 @@
 
 int array[SIZE] = {0}; // Initialize array to 0
 
-// Function to validate location input
-int isValidLocation(int location) {
-    if (location < 1 || location > SIZE) {
-        printf("\nInvalid Location! Enter between 1 and %d.\n", SIZE);
-        return 0;
-    }
-    return 1;
-}
-
 int main() {
     int choice;
     int location, data;
@@ -25,6 +16,8 @@ int main() {
         printf("\n2. Display Array");
         printf("\n3. Delete Element");
         printf("\n4. Exit");
+        printf("\n5. Linear Search");
+        printf("\n6. Binary Search");
         printf("\nEnter your choice: ");
         
         if (scanf("%d", &choice) != 1) {
@@ -42,7 +35,8 @@ int main() {
                     break;
                 }
 
-                if (!isValidLocation(location)) {
+                if (location < 1 || location > SIZE) {
+                    printf("\nInvalid Location! Enter between 1 and %d.\n", SIZE);
                     break;
                 }
 
@@ -76,7 +70,8 @@ int main() {
                     break;
                 }
 
-                if (!isValidLocation(location)) {
+                if (location < 1 || location > SIZE) {
+                    printf("\nInvalid Location! Enter between 1 and %d.\n", SIZE);
                     break;
                 }
 
