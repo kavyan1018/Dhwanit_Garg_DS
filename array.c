@@ -16,8 +16,6 @@ int main() {
         printf("\n2. Display Array");
         printf("\n3. Delete Element");
         printf("\n4. Exit");
-        printf("\n5. Linear Search");
-        printf("\n6. Binary Search");
         printf("\nEnter your choice: ");
         
         if (scanf("%d", &choice) != 1) {
