@@ -20,7 +20,6 @@ int main() {
         
         if (scanf("%d", &choice) != 1) {
             printf("\nInvalid input! Please enter a number.\n");
-            while (getchar() != '\n'); // Clear input buffer
             continue;
         }
 
@@ -91,64 +90,6 @@ int main() {
                 printf("\nExiting program. Goodbye!\n");
                 return 0;
 
-            case 5: // Linear Search
-                printf("\nEnter Element to Search: ");
-                if (scanf("%d", &search) != 1) {
-                    printf("\nInvalid input! Please enter a valid number.\n");
-                    while (getchar() != '\n');
-                    break;
-                }
-
-                found = 0;
-                for (i = 0; i < SIZE; i++) {
-                    if (array[i] == search) {
-                        printf("\nElement %d found at position %d.\n", search, i + 1);
-                        found = 1;
-                        break;
-                    }
-                }
-                if (!found) {
-                    printf("\nElement %d not found.\n", search);
-                }
-                break;
-
-            case 6: // Binary Search
-                printf("\nEnter Element to Search: ");
-                if (scanf("%d", &search) != 1) {
-                    printf("\nInvalid input! Please enter a valid number.\n");
-                    while (getchar() != '\n');
-                    break;
-                }
-
-                // Check if array is sorted
-                for (i = 1; i < SIZE; i++) {
-                    if (array[i] < array[i-1] && array[i] != 0) {
-                        printf("\nArray must be sorted for binary search!\n");
-                        break;
-                    }
-                }
-                if (i < SIZE) break;
-
-                left = 0;
-                right = SIZE - 1;
-                found = 0;
-
-                while (left <= right) {
-                    mid = (left + right) / 2;
-                    if (array[mid] == search) {
-                        printf("\nElement %d found at position %d.\n", search, mid + 1);
-                        found = 1;
-                        break;
-                    } else if (array[mid] == 0 || search > array[mid]) {
-                        left = mid + 1;
-                    } else {
-                        right = mid - 1;
-                    }
-                }
-                if (!found) {
-                    printf("\nElement %d not found.\n", search);
-                }
-                break;
 
             default:
                 printf("\nInvalid Choice! Please try again.\n");
