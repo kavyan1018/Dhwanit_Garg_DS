@@ -20,7 +20,7 @@ int main() {
         
         if (scanf("%d", &choice) != 1) {
             printf("\nInvalid input! Please enter a number.\n");
-            continue;
+            break;
         }
 
         switch (choice) {
@@ -89,7 +89,6 @@ int main() {
             case 4: // Exit program
                 printf("\nExiting program. Goodbye!\n");
                 return 0;
-
 
             default:
                 printf("\nInvalid Choice! Please try again.\n");
