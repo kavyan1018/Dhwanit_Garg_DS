@@ -72,3 +72,40 @@ tools -> DS ->
 			
 		data? 
 		location? 
+
+-------------------------------------------------------------------------------------
+
+Stack :
+	->  Linear DS 
+	->  LIFO :- Last In First Out
+	->  FILO :- First In Last Out
+
+	->  push()  : insert data into Stack
+	->  pop()   : delete / remove data from Stack
+	->  peek()  : view the top element of Stack
+	->  isEmpty(): check whether stack is empty or not
+	->  isFull() : check whether stack is full or not
+
+insert  --> push()
+delete  --> pop()
+
+
+
+Push :-
+push(x)
+stack is collection of similar data type 
+
+POP :- 
+pop()
+it will remove top most element from the stack 
+
+
+peek :- 
+it will return top most of the element without removing element from the stack 
+
+
+isEmpty :- 
+if the stack is empty there is no element in stack 
+
+is Full :- 
+when stack is full it will return true 
