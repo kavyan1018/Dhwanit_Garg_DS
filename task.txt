@@ -1,0 +1,13 @@
+Write a C program to check a stack is full or not using an array with push and pop operations.
+
+Expected Output:
+
+Stack size: 3
+Original Stack: 1 2 3 
+Push another value and check if the stack is full or not!
+Stack is full!
+
+Stack size: 3
+Original Stack: 10 20 
+Check the said stack is full or not!
+Stack is not full!
