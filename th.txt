@@ -109,3 +109,29 @@ if the stack is empty there is no element in stack
 
 is Full :- 
 when stack is full it will return true 
+
+
+
+
+Quicksort 
+-----------------------------------------
+
+[ 11 , 9 , 12 , 7 , 3]
+
+
+
+step 1 : 11 & 3 pivot
+--> [ 3 , 9 , 12 , 7 , 11]
+
+
+step 2 : 9 & 7 pivot
+--> [ 3 , 7 , 12 , 9 , 11]
+
+step 3 : 12 & 9 pivot
+--> [ 3 , 7 , 9 , 12 , 11]
+
+step 4 : 12 & 11 pivot
+--> [ 3 , 7 , 9 , 11 , 12]
+
+
+Quicksort : - 3, 7, 9, 11, 12
